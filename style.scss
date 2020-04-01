@@ -1,11 +1,16 @@
 html {
   box-sizing: border-box;
   font-size: 100%;
+  
 }
+
+
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+
 
 body {
   background-color: #060042;
@@ -15,7 +20,9 @@ body {
   min-height: 100vh;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+ 
 }
+
 
 .logo {
   width: 120px;
