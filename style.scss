@@ -10,7 +10,6 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   background-color: #060042;
   background-image: -webkit-gradient(linear,left top,left bottom,color-stop(2%,#060042),color-stop(108%,#20A39E));
@@ -19,7 +18,10 @@ body {
   min-height: 100vh;
   text-align: center;
   font-family: 'Roboto', sans-serif;
- 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 
